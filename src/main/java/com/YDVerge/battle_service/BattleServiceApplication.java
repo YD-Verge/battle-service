@@ -1,4 +1,4 @@
-package com.YDV.battle_service;
+package com.YDVerge.battle_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

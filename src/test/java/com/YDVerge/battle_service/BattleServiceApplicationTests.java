@@ -1,4 +1,4 @@
-package com.YDV.battle_service;
+package com.YDVerge.battle_service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

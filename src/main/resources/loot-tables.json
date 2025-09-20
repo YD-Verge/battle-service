@@ -1,0 +1,141 @@
+{
+  "swamp_troll": {
+    "health": 8,
+    "attack": 4,
+    "goldMin": 50,
+    "goldMax": 70,
+    "loot": [
+      { "item": "Moss", "chance": 0.6, "min": 2, "max": 4 },
+      { "item": "Club", "chance": 0.2, "min": 1, "max": 1 }
+    ]
+  },
+  "mountain_ogre": {
+    "health": 15,
+    "attack": 6,
+    "goldMin": 100,
+    "goldMax": 150,
+    "loot": [
+      { "item": "Rock", "chance": 0.5, "min": 2, "max": 3 },
+      { "item": "Iron Shield", "chance": 0.1, "min": 1, "max": 1 }
+    ]
+  },
+  "forest_bandit": {
+    "health": 6,
+    "attack": 3,
+    "goldMin": 40,
+    "goldMax": 60,
+    "loot": [
+      { "item": "Leather Armor", "chance": 0.4, "min": 1, "max": 1 },
+      { "item": "Silver Coin", "chance": 0.7, "min": 1, "max": 2 }
+    ]
+  },
+  "fire_elemental": {
+    "health": 12,
+    "attack": 5,
+    "goldMin": 70,
+    "goldMax": 110,
+    "loot": [
+      { "item": "Flame Essence", "chance": 0.8, "min": 1, "max": 2 },
+      { "item": "Firestone", "chance": 0.2, "min": 1, "max": 1 }
+    ]
+  },
+  "ice_dragon": {
+    "health": 20,
+    "attack": 8,
+    "goldMin": 200,
+    "goldMax": 250,
+    "loot": [
+      { "item": "Frozen Scale", "chance": 0.9, "min": 2, "max": 5 },
+      { "item": "Ice Fang", "chance": 0.05, "min": 1, "max": 1 }
+    ]
+  },
+  "storm_harpy": {
+    "health": 7,
+    "attack": 3,
+    "goldMin": 40,
+    "goldMax": 70,
+    "loot": [
+      { "item": "Feather", "chance": 0.6, "min": 1, "max": 2 },
+      { "item": "Storm Crystal", "chance": 0.2, "min": 1, "max": 1 }
+    ]
+  },
+  "dark_wraith": {
+    "health": 18,
+    "attack": 6,
+    "goldMin": 90,
+    "goldMax": 130,
+    "loot": [
+      { "item": "Soulstone", "chance": 0.7, "min": 1, "max": 2 },
+      { "item": "Cursed Blade", "chance": 0.1, "min": 1, "max": 1 }
+    ]
+  },
+  "sand_serpent": {
+    "health": 10,
+    "attack": 4,
+    "goldMin": 60,
+    "goldMax": 90,
+    "loot": [
+      { "item": "Snake Venom", "chance": 0.5, "min": 1, "max": 3 },
+      { "item": "Scarab Amulet", "chance": 0.2, "min": 1, "max": 1 }
+    ]
+  },
+  "vampire_bat": {
+    "health": 3,
+    "attack": 2,
+    "goldMin": 15,
+    "goldMax": 30,
+    "loot": [
+      { "item": "Bat Wing", "chance": 0.7, "min": 1, "max": 2 },
+      { "item": "Bloodstone", "chance": 0.3, "min": 1, "max": 1 }
+    ]
+  },
+  "manticore": {
+    "health": 14,
+    "attack": 7,
+    "goldMin": 120,
+    "goldMax": 160,
+    "loot": [
+      { "item": "Manticore Claw", "chance": 0.6, "min": 1, "max": 2 },
+      { "item": "Stinger", "chance": 0.3, "min": 1, "max": 1 }
+    ]
+  },
+  "ghoul": {
+    "health": 5,
+    "attack": 3,
+    "goldMin": 30,
+    "goldMax": 50,
+    "loot": [
+      { "item": "Flesh", "chance": 0.8, "min": 1, "max": 2 },
+      { "item": "Grave Dust", "chance": 0.4, "min": 1, "max": 1 }
+    ]
+  },
+  "forest_wolf": {
+  	"health": 2,
+  	"attack": 1,
+      "goldMin": 10,
+      "goldMax": 20,
+      "loot": [
+        { "item": "Herb", "chance": 0.5, "min": 1, "max": 2 }
+      ]
+    },
+    "cave_goblin": {
+  	"health": 5,
+  	"attack": 2,
+      "goldMin": 30,
+      "goldMax": 50,
+      "loot": [
+        { "item": "Ore", "chance": 0.4, "min": 1, "max": 1 },
+        { "item": "Rusty Sword", "chance": 0.1, "min": 1, "max": 1 }
+      ]
+    },
+    "ruins_skeleton": {
+  	"health": 10,
+  	"attack": 3,
+      "goldMin": 80,
+      "goldMax": 120,
+      "loot": [
+        { "item": "Bone", "chance": 0.7, "min": 1, "max": 3 },
+        { "item": "Gem", "chance": 0.05, "min": 1, "max": 1 }
+      ]
+    }
+}

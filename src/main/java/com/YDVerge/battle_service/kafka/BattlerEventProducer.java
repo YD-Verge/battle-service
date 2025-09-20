@@ -13,10 +13,10 @@ public class BattlerEventProducer {
     private String topicName;
 
     public BattlerEventProducer(KafkaTemplate<String, BattlerEvent> kafkaTemplate) {
-	this.kafkaTemplate = kafkaTemplate;
+        this.kafkaTemplate = kafkaTemplate;
     }
 
     public void sendBattlerEvent(BattlerEvent event) {
-	kafkaTemplate.send(topicName, event);
+        kafkaTemplate.send(topicName, event);
     }
 }

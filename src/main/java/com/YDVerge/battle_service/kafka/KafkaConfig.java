@@ -20,7 +20,7 @@ import java.util.Map;
 @Configuration
 public class KafkaConfig {
 
-    private final String bootstrapServers = "localhost:9092";
+    private final String bootstrapServers = "192.168.0.101:9092";
 
     // ---------------- STRING PRODUCER ----------------
     @Bean
@@ -112,8 +112,8 @@ public class KafkaConfig {
         config.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServers);
         config.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
         config.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, JsonDeserializer.class);
-        config.put(JsonDeserializer.TRUSTED_PACKAGES, "com.YDVerge.battle_service.kafka");
-        config.put(ConsumerConfig.GROUP_ID_CONFIG, "battler-service");
+        config.put(JsonDeserializer.TRUSTED_PACKAGES, "com.YDVerge.battle-service.kafka");
+        config.put(ConsumerConfig.GROUP_ID_CONFIG, "battle-service");
         return new DefaultKafkaConsumerFactory<>(
             config,
             new StringDeserializer(),

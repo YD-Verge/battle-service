@@ -43,7 +43,7 @@ public class TriggerBattleService {
 
     public BattleCompletedEvent fight(String playerId) {
 	PlayerDTO player = restTemplate.getForObject(
-		"http://localhost:8080/api/player/stats",
+		"http://192.168.0.101:8081/api/player/stats",
                 PlayerDTO.class
         );
 	System.out.println(player);
@@ -92,7 +92,7 @@ public class TriggerBattleService {
 
         // 5. Publish event to Kafka
         BattleCompletedEvent event = new BattleCompletedEvent(playerId, gold, lootItem, lootQty, result);
-        //kafkaTemplate.send("battle-completed", event);
+        kafkaTemplate.send("battle-completed", event);
         System.out.println(event + "   Inside Fight");
         return event;
     }

@@ -16,10 +16,19 @@ public class PlayerEventConsumer {
 
     @KafkaListener(
 	    topics = "player-attack",
-	    groupId = "battler-service",
+	    groupId = "battle-service",
 	    containerFactory = "playerAttackKafkaListenerFactory" 
 	)
 	public void consumePlayerAttack(PlayerAttackEvent event) {
 	    triggerBattleService.handlePlayerAttack(event);
+	}
+    
+    @KafkaListener(
+	    topics = "battle-completed",
+	    groupId = "battle-service",
+	    containerFactory = "battleCompletedKafkaListenerFactory"
+	)
+	public void jusListen(BattleCompletedEvent event) {
+	    System.out.println("Was Able to Listen BattleCompleted " + event);;
 	}
 }
